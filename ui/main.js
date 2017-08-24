@@ -1,14 +1,13 @@
-console.log('Loaded!');
-
-var element = document.getElementById ('main-text');
-element.innerHTML = 'hi this is changed by the javascript file';
-
-//move the image
-var img = document.getElementById('madi');
-function moveLeft () {
+//counter code
+var button = document.getElementById('counter');
+button.oncllick = function(){
+  
+  
+  
+  //render the variable in the correct span
+  counter = counter +1;
+  var span = document.getElementById('count');
+  sapn.innerHTML = counter.toString();
+   
     
-}
-img.onClick = function() {
-    var interval = setInterval(moveleft,100);
-    img.style.marginleft = '200px';
 };
