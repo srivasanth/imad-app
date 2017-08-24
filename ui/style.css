@@ -1,30 +1,16 @@
-body {
-    font-family: sans-serif;
-    background-color: lightgrey;
-    margin-top: 75px;
-}
+console.log('Loaded!');
 
-.center {
-    text-align: center;
-}
+var element = document.getElementById ('main-text');
+element.innerHTML = 'hi this is changed by the javascript file';
 
-.text-big {
-    font-size: 300%;
+//move the image
+var img = document.getElementById('madi');
+var marginLeft = 0;
+function moveRight   () {
+    marginLeft= marginLeft+10 ;
+    img.style.marginLeft = marginLeft + 'px' ; 
 }
-
-.bold {
-    font-weight: bold;
-}
-
-.img-medium {
-    height: 200px;
-}
-
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    color: grey;
-    padding-top:60px ;
-    font-family :sans-serif;
-    padding-top: 60px;
-}
+img.onClick = function() {
+    var interval = setInterval(moveleft,100);
+   
+};
