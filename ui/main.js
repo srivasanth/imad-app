@@ -16,7 +16,7 @@ button.onclick = function(){
       
   }; 
   
-    request.open('GET', 'http://srivasanth200.imad.hasura-app.io/counter,true');
+    request.open('GET', 'http://srivasanth200.imad.hasura-app.io/counter',true');
     reques.send(null);
  
 };
