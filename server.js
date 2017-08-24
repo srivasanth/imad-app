@@ -13,7 +13,7 @@ heading: 'Article one',
 date: 'serp 5 2017',
 content:` <p>
 This is the content of the first paragraph and 
-the content of my article.
+the content of my article article one .
 </p>
 <p>
 This is the content of the first paragraph and 
@@ -35,7 +35,7 @@ content:` <p>
 the content of my article.
 </p>
 <p>
-this is content of article two . This is the content of the Second paragraph and 
+this is content of article two . This is the content of the Second paragraph  article two and 
 the content of my article.
 </p>
 <p>
@@ -46,11 +46,11 @@ the content of my article.
     `
 },
 'article-three' : {
-title : 'Article one | vasanth',
+title : 'Article Three | vasanth',
 heading: 'Article one',
 date: 'serp 5 2017',
 content:` <p>
-This is the content of the first paragraph and 
+This is the content of the ARTICLE THREE first paragraph and 
 the content of my article.
 </p>
 <p>
